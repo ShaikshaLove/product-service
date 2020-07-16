@@ -1,0 +1,6 @@
+spring:
+ application:
+  name: product-service
+ cloud:
+  config:
+   uri: https://s3food-config-server.herokuapp.com/
